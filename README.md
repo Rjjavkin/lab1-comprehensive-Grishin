@@ -80,7 +80,7 @@ src/discount.py:5:81: E501 line too long (116 > 80 characters)
 
 ### 5.2. План code-review
 Для безопасного рефакторинга модуля `src/discount.py` подготовлен план проведения инспекции кода.
-* **Открытый Pull Request с планом ревью и UML:** [ЗДЕСЬ ВСТАВИТЬ ССЫЛКУ НА ОТКРЫТЫЙ PR из feature/review-plan в develop]
+* **Открытый Pull Request с планом ревью и UML:** https://github.com/Rjjavkin/lab1-comprehensive-Grishin/blob/feature/review-plan/docs/review-plan.md
 * **Ключевые измеримые критерии:**
   * Полное отсутствие магических чисел (вынос в константы или конфигурацию).
   * Наличие валидации входных параметров (защита от отрицательной суммы корзины).
