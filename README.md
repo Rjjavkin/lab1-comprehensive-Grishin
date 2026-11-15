@@ -49,8 +49,8 @@ https://github.com/Rjjavkin/lab1-comprehensive-Grishin/tree/develop
 
 ### 4.1. Настройка CI/CD
 Автоматическая проверка стиля кода (PEP8, максимальная длина строки 80 символов) настроена через GitHub Actions с использованием линтера `flake8`. Пайплайн запускается автоматически при создании или обновлении любого Pull Request в ветку `develop`.
-* **Файл конфигурации линтера:** [.flake8](.flake8)
-* **Файл пайплайна CI/CD:** [.github/workflows/qa.yml](.github/workflows/qa.yml)
+* **Файл конфигурации линтера:** https://github.com/Rjjavkin/lab1-comprehensive-Grishin/blob/develop/.flake8
+* **Файл пайплайна CI/CD:** https://github.com/Rjjavkin/lab1-comprehensive-Grishin/blob/develop/.github/workflows/qa.yml
 
 ### 4.2. Работа Quality Gate
 Проверка работоспособности Quality Gate выполнена по методу «Сломать и починить»:
